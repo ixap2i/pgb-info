@@ -1,0 +1,14 @@
+class Bike
+  TABLE_COLUMNS: {kind: String, color: String, distance: String, engine: String, status: String, place: String, price: String}
+
+  attr_accessor name: String
+  attr_accessor color: String
+  attr_accessor distance: String
+  attr_accessor engine: String
+  attr_accessor status: String
+  attr_accessor place: String
+  attr_accessor price: String
+  attr_accessor img_url: String
+  attr_accessor detail_link: String
+  def self.run: -> nil
+end

@@ -8,5 +8,8 @@ class Bike < ApplicationRecord
     place: '販売場所',
     price: '値段'
   }
-  private attr_accessor :name, :color, :distance, :engine, :status, :place, :price, :img_url, :detail_link
+  attr_accessor :name, :color, :distance, :engine, :status, :place, :price, :img_url, :detail_link
+  def self.run
+    puts test + 1
+  end
 end
